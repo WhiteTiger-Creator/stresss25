@@ -341,7 +341,15 @@
         "escalated_count",
         "rerun_escalated_count"
       ]
-    }
+    },
+    "field_types": {
+      "patched_workflow": "string \u2014 absolute path of the active workflow overwritten by repair; must equal \"/app/workflow/export_report.py\".",
+      "processing_steps": "array of strings \u2014 exactly the array at repair_audit.processing_steps in this spec, element for element, same order.",
+      "removed_tokens": "object \u2014 maps each forbidden_executable_tokens literal (exact string key, no alias) to a boolean; after a correct repair every value is true (the token no longer appears in executable code).",
+      "pre_repair": "object \u2014 { pipeline_source_sha256: string (64 lowercase hex, sha256 of the frozen /app/workflow/.export_report.original bytes), pipeline_tokens_present: object mapping each forbidden token literal to a boolean, every value true, computed from the frozen original BEFORE any patch }. pipeline_tokens_present uses the SAME key set and value type as removed_tokens.",
+      "post_repair": "object \u2014 { escalated_count: integer, rerun_escalated_count: integer }; both equal summary.escalated_count."
+    },
+    "evidence_verbatim_contract": "pipeline_evidence must be copied CHARACTER-FOR-CHARACTER as a verbatim substring of the frozen broken pipeline at /app/workflow/.export_report.original (no paraphrase, no reformat, no whitespace normalization). dossier_quote must be a verbatim substring of /app/incident/export_dossier.md after ONLY whitespace-run normalization (runs of whitespace are equivalent; wording, punctuation and casing must match the source exactly). See output_contract.md and diagnosis_report.issues_found_item.evidence."
   },
   "workflow_repair": {
     "path": "/app/workflow/export_report.py",

@@ -38,7 +38,7 @@ Related leases form transitive chains. Chains then participate in a directed rea
 
 Every repair reads the pre-repair SHA-256 from the frozen bytes before replacing the active workflow. `repair_audit.json` contains `patched_workflow`, `processing_steps`, `removed_tokens`, `pre_repair`, and `post_repair`. The **value** of `processing_steps` must be the array at `repair_audit.processing_steps` in `/app/docs/report_spec.json`, copied element for element in the same order. Composing your own step names, renaming a step, reordering them, or altering a step name does not satisfy the requirement — reproduce each string exactly as the spec writes it.
 
-`removed_tokens` maps each forbidden token string to a boolean. The removed-token map uses the exact source literals `event["leased_at"]` and `severity == "critical"`. The post-repair section leases integer `escalated_count` and `rerun_escalated_count`.
+`removed_tokens` maps each forbidden token string to a boolean. The removed-token map uses the exact source literals `event["leased_at"]` and `severity == "critical"`. The post-repair section records integer `escalated_count` and `rerun_escalated_count`.
 
 The requested output directory contains exactly:
 
