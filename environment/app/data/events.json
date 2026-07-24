@@ -1,0 +1,226 @@
+[
+  {
+    "lease_id": "lse-401",
+    "leased_ms": 18510000000000,
+    "severity": "critical",
+    "mount": "db-creds",
+    "detector": "malicious policy injection",
+    "dismissed": false
+  },
+  {
+    "lease_id": "lse-402",
+    "leased_ms": 18510000000250,
+    "severity": "Critical",
+    "mount": "db-creds",
+    "detector": "auth mount hijack",
+    "dismissed": false
+  },
+  {
+    "lease_id": "lse-403",
+    "leased_ms": 18510000000800,
+    "severity": "high",
+    "mount": "db-creds",
+    "detector": "ttl condition tampering",
+    "dismissed": false
+  },
+  {
+    "lease_id": "lse-410",
+    "leased_ms": 18510000001100,
+    "severity": "HIGH ",
+    "mount": "pki-int",
+    "detector": "policy violation flood",
+    "dismissed": false
+  },
+  {
+    "lease_id": "lse-411",
+    "leased_ms": 18510000001500,
+    "severity": "high",
+    "mount": "pki-int",
+    "detector": "token replay storm",
+    "dismissed": false
+  },
+  {
+    "lease_id": "lse-420",
+    "leased_ms": 18510000002000,
+    "severity": "high",
+    "mount": "kv-app",
+    "detector": "wildcard policy abuse",
+    "dismissed": false
+  },
+  {
+    "lease_id": "lse-404",
+    "leased_ms": 18510000003000,
+    "severity": "high",
+    "mount": "db-creds",
+    "detector": "plugin rce exploit",
+    "dismissed": false
+  },
+  {
+    "lease_id": "lse-405",
+    "leased_ms": 18510000003150,
+    "severity": "critical",
+    "mount": "db-creds",
+    "detector": "root token theft",
+    "dismissed": false
+  },
+  {
+    "lease_id": "lse-430",
+    "leased_ms": 18510000003400,
+    "severity": "critical",
+    "mount": "aws-sts",
+    "detector": "malicious policy injection",
+    "dismissed": false
+  },
+  {
+    "lease_id": "lse-431",
+    "leased_ms": 18510000003700,
+    "severity": "critical",
+    "mount": "ssh-ca",
+    "detector": "malicious policy injection",
+    "dismissed": false
+  },
+  {
+    "lease_id": "lse-440",
+    "leased_ms": 18510000003900,
+    "severity": "high",
+    "mount": "transit",
+    "detector": "audit log tampering burst",
+    "dismissed": false
+  },
+  {
+    "lease_id": "lse-441",
+    "leased_ms": 18510000005200,
+    "severity": "high",
+    "mount": "db-creds",
+    "detector": "privileged policy grant",
+    "dismissed": false
+  },
+  {
+    "lease_id": "lse-442",
+    "leased_ms": 18510000005400,
+    "severity": "medium",
+    "mount": "pki-int",
+    "detector": "unfamiliar vault client",
+    "dismissed": false
+  },
+  {
+    "lease_id": "lse-443",
+    "leased_ms": 18510000005500,
+    "severity": "low",
+    "mount": "kv-app",
+    "detector": "stale lease reuse",
+    "dismissed": false
+  },
+  {
+    "lease_id": "lse-444",
+    "leased_ms": 18510000005600,
+    "severity": "medium",
+    "mount": "transit",
+    "detector": "read from tor exit",
+    "dismissed": false
+  },
+  {
+    "lease_id": "lse-450",
+    "leased_ms": 18510000006200,
+    "severity": "high",
+    "mount": "db-creds",
+    "detector": "malicious policy injection",
+    "dismissed": true
+  },
+  {
+    "lease_id": "lse-451",
+    "leased_ms": 18510000006300,
+    "severity": "critical",
+    "mount": "pki-int",
+    "detector": "policy violation flood",
+    "dismissed": "yes"
+  },
+  {
+    "lease_id": "lse-460",
+    "leased_ms": 18510000007200,
+    "severity": "high",
+    "mount": "ssh-ca",
+    "detector": "token replay storm",
+    "dismissed": false
+  },
+  {
+    "lease_id": "lse-461",
+    "leased_ms": 18510000007350,
+    "severity": "critical",
+    "mount": "ssh-ca",
+    "detector": "token replay storm",
+    "dismissed": false
+  },
+  {
+    "lease_id": "lse-470",
+    "leased_ms": 18510000008200,
+    "severity": "high",
+    "mount": "kv-app",
+    "detector": "malicious policy injection",
+    "dismissed": false
+  },
+  {
+    "lease_id": "lse-471",
+    "leased_ms": 18510000008500,
+    "severity": "high",
+    "mount": "aws-sts",
+    "detector": "brute force unseal lockout",
+    "dismissed": false
+  },
+  {
+    "lease_id": "lse-472",
+    "leased_ms": 18510000008800,
+    "severity": "critical",
+    "mount": "db-creds",
+    "detector": "privileged mount grant",
+    "dismissed": false
+  },
+  {
+    "lease_id": "lse-473",
+    "leased_ms": 18510000009200,
+    "severity": "high",
+    "mount": "pki-int",
+    "detector": "exfil via response wrap",
+    "dismissed": false
+  },
+  {
+    "lease_id": "lse-474",
+    "leased_ms": 18510000009400,
+    "severity": "critical",
+    "mount": "transit",
+    "detector": "lease drift anomaly",
+    "dismissed": false
+  },
+  {
+    "lease_id": "lse-480",
+    "leased_ms": 18510000010200,
+    "severity": "high",
+    "mount": "kv-app",
+    "detector": "credential in template",
+    "dismissed": false
+  },
+  {
+    "lease_id": "lse-481",
+    "leased_ms": 18510000010290,
+    "severity": "high",
+    "mount": "kv-app",
+    "detector": "signing key exposure",
+    "dismissed": false
+  },
+  {
+    "lease_id": "lse-401",
+    "leased_ms": 18510000000120,
+    "severity": "high",
+    "mount": "db-creds",
+    "detector": "malicious policy injection",
+    "dismissed": false
+  },
+  {
+    "lease_id": "lse-440",
+    "leased_ms": 18510000003900,
+    "severity": "critical",
+    "mount": "transit",
+    "detector": "audit log tampering burst",
+    "dismissed": false
+  }
+]

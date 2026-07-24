@@ -1,0 +1,98 @@
+[
+  {
+    "lease_id": "cx-01",
+    "leased_ms": 18510000000000,
+    "severity": "critical",
+    "mount": "db-creds",
+    "detector": "malicious policy injection",
+    "dismissed": false
+  },
+  {
+    "lease_id": "cx-02",
+    "leased_ms": 18510000000350,
+    "severity": "high",
+    "mount": "db-creds",
+    "detector": "auth mount hijack",
+    "dismissed": false
+  },
+  {
+    "lease_id": "cx-03",
+    "leased_ms": 18510000001600,
+    "severity": "high",
+    "mount": "kv-app",
+    "detector": "token replay storm",
+    "dismissed": false
+  },
+  {
+    "lease_id": "cx-04",
+    "leased_ms": 18510000002100,
+    "severity": "critical",
+    "mount": "pki-int",
+    "detector": "malicious policy injection",
+    "dismissed": false
+  },
+  {
+    "lease_id": "cx-05",
+    "leased_ms": 18510000002500,
+    "severity": "high",
+    "mount": "aws-sts",
+    "detector": "malicious policy injection",
+    "dismissed": false
+  },
+  {
+    "lease_id": "cx-06",
+    "leased_ms": 18510000003100,
+    "severity": "critical",
+    "mount": "transit",
+    "detector": "lease drift anomaly",
+    "dismissed": false
+  },
+  {
+    "lease_id": "cx-07",
+    "leased_ms": 18510000003700,
+    "severity": "high",
+    "mount": "ssh-ca",
+    "detector": "credential in template",
+    "dismissed": false
+  },
+  {
+    "lease_id": "cx-08",
+    "leased_ms": 18510000004100,
+    "severity": "medium",
+    "mount": "db-creds",
+    "detector": "privileged mount grant",
+    "dismissed": false
+  },
+  {
+    "lease_id": "cx-09",
+    "leased_ms": 18510000004300,
+    "severity": "low",
+    "mount": "kv-app",
+    "detector": "stale lease reuse",
+    "dismissed": false
+  },
+  {
+    "lease_id": "cx-10",
+    "leased_ms": 18510000004700,
+    "severity": "high",
+    "mount": "pki-int",
+    "detector": "policy violation flood",
+    "dismissed": true
+  },
+  {
+    "lease_id": "cx-11",
+    "leased_ms": 18510000005100,
+    "severity": "high",
+    "mount": "transit",
+    "detector": "audit log tampering burst",
+    "dismissed": false
+  },
+  {
+    "lease_id": "cx-12",
+    "leased_ms": 18510000005400,
+    "severity": "high",
+    "mount": "db-creds",
+    "detector": "ttl condition tampering",
+    "dismissed": false
+  }
+]

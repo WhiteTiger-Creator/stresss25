@@ -1,0 +1,74 @@
+[
+  {
+    "mount": "ssh-ca",
+    "severity_scope": "all",
+    "start_ms": 18510000007150,
+    "end_ms": 18510000007400
+  },
+  {
+    "mount": "db-creds",
+    "severity_scope": "critical",
+    "start_ms": 18510000008750,
+    "end_ms": 18510000008850
+  },
+  {
+    "mount": "aws-sts",
+    "severity_scope": "high",
+    "start_ms": 18510000008450,
+    "end_ms": 18510000008480
+  },
+  {
+    "mount": "pki-int",
+    "severity_scope": "high",
+    "start_ms": 18510000001000,
+    "end_ms": 18510000001200
+  },
+  {
+    "mount": "db-creds",
+    "severity_scope": "all",
+    "start_ms": 18510000000200,
+    "end_ms": 18510000000300
+  },
+  {
+    "mount": "db-creds",
+    "severity_scope": "all",
+    "start_ms": 18510000000300,
+    "end_ms": 18510000000360
+  },
+  {
+    "mount": "kv-app",
+    "severity_scope": "all",
+    "start_ms": 18510000001800,
+    "end_ms": 18510000001847
+  },
+  {
+    "mount": "transit",
+    "severity_scope": "all",
+    "start_ms": 18510000003700,
+    "end_ms": 18510000003761
+  },
+  {
+    "mount": "kv-app",
+    "severity_scope": "all",
+    "start_ms": 18510000008000,
+    "end_ms": 18510000008071
+  },
+  {
+    "mount": "aws-sts",
+    "severity_scope": "all",
+    "start_ms": 18510000008300,
+    "end_ms": 18510000008391
+  },
+  {
+    "mount": "pki-int",
+    "severity_scope": "all",
+    "start_ms": 18510000009000,
+    "end_ms": 18510000009047
+  },
+  {
+    "mount": "kv-app",
+    "severity_scope": "all",
+    "start_ms": 18510000010000,
+    "end_ms": 18510000010061
+  }
+]
